@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" integrity="sha512-usVBAd66/NpVNfBge19gws2j6JZinnca12rAe2l+d+QkLU9fiG02O1X8Q6hepIpr/EYKZvKx/I9WsnujJuOmBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="index.js"></script>
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <h2>Password Generator</h2>
+
+    <div class="form">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Password length</label>
+            <input type="text" class="form-control" id="passLength" placeholder="Enter your password length">
+            <p id="passwordHelp" class="form-text text-muted">The length must be greater than 8 pay attention !</p>
+        </div>
+        <br><br>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Your Password</label>
+            <input type="text" class="form-control" id="passwordOutput" placeholder="Password" value="">
+        </div>
+        <br>
+        <br>
+        <button id="btn" type="submit" class="btn btn-primary" onclick="generate();">Submit</button>
+        <br>
+    </div>
+
+
+
+</body>
+
+
+</html>
